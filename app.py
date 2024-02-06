@@ -59,18 +59,24 @@ from flask import redirect, url_for, flash
 
 @app.route('/purchasePlaces', methods=['POST'])
 def purchasePlaces():
-    competition_name = request.form['competition']
-    club_name = request.form['club']
-    places_required_str = request.form['places']
-    if not places_required_str.isdigit():
-        flash('Veuillez entrer le nombre de places.', 'error')
-        return redirect(url_for('book', competition=competition_name, club=club_name))
-    places_required = int(places_required_str)
-    competition = [c for c in competitions if c['name'] == competition_name][0]
-    club = [c for c in clubs if c['name'] == club_name][0]
-    competition['numberOfPlaces'] = int(competition['numberOfPlaces']) - places_required
-    flash('Great-booking complete!')
+    competition = [c for c in competitions if c['name'] == request.form['competition']][0]
+    club = [c for c in clubs if c['name'] == request.form['club']][0]
+    placesRequired = int(request.form['places'])
 
+    # Vérification du nombre de points
+    if int(club['points']) < placesRequired:
+        flash('Point insuffisant!')
+        return render_template('welcome.html', club=club, competitions=competitions)
+
+    # Vérification du nombre de places disponibles
+    if int(competition['numberOfPlaces']) < placesRequired:
+        flash('Nombre de places insuffisant!')
+        return render_template('welcome.html', club=club, competitions=competitions)
+
+    # Calcul pour que le nombre de points et les places diminuent en fonction du nombre de places réservées
+    competition['numberOfPlaces'] = int(competition['numberOfPlaces']) - placesRequired
+    club['points'] = int(club['points']) - placesRequired
+    flash('Great-booking complete!')
     return render_template('welcome.html', club=club, competitions=competitions)
 
 
