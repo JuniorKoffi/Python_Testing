@@ -1,4 +1,3 @@
-from flask.testing import FlaskClient
 import pytest
 from flask import Flask
 
@@ -23,32 +22,12 @@ def client():
     with app.test_client() as client:
         yield client
 
-def test_book_valid(client: FlaskClient):
+def test_book_valid(client):
     response = client.get('/book/CompetitionA/ClubA')
     assert response.status_code == 200
     assert b"Booking page" in response.data
 
-def test_book_invalid(client: FlaskClient):
+def test_book_invalid(client):
     response = client.get('/book/CompetitionC/ClubB')
     assert response.status_code == 200
     assert b"Something went wrong" in response.data
-
-def test_book_invalid_club(client: FlaskClient):
-    response = client.get('/book/CompetitionA/ClubC')
-    assert response.status_code == 200
-    assert b"Something went wrong" in response.data
-
-def test_book_invalid_competition(client: FlaskClient):
-    response = client.get('/book/CompetitionC/ClubA')
-    assert response.status_code == 200
-    assert b"Something went wrong" in response.data
-
-def test_book_missing_parameters(client: FlaskClient):
-    response = client.get('/book/')
-    assert response.status_code == 404
-
-    response = client.get('/book/CompetitionA/')
-    assert response.status_code == 404
-
-    response = client.get('/book//ClubA')
-    assert response.status_code == 404

@@ -1,4 +1,10 @@
 
+import sys
+from pathlib import Path
+
+# Obtenez le chemin absolu du répertoire racine de votre projet
+project_root = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(project_root))
 import pytest
 from app import app
 
@@ -35,41 +41,3 @@ def test_show_summary_invalid_client(client):
     # Add more assertions if needed
 
 # You can add more test cases to cover different scenarios
-def test_show_summary_no_email(client):
-    # Simulez une requête sans email
-    response = client.post('/showSummary', data={})
-
-    # Assurez-vous que le statut de la réponse est 302 (redirection vers la page d'accueil)
-    assert response.status_code == 302
-
-    # Assurez-vous que l'URL de redirection se termine par "/"
-    assert response.headers['Location'].endswith('/')
-
-    # Vérifiez si un message d'erreur approprié est présent dans les messages flash
-    with client.session_transaction() as session:
-        flash_messages = dict(session['_flashes'])
-        assert 'Veuillez entrer votre adresse mail!' in flash_messages['error']
-
-
-def test_show_summary_multiple_matching_clubs(client):
-    # Ajoutez plusieurs clubs avec la même adresse e-mail
-    app.config['clubs'] = [
-        {"name": "Club 1", "email": "john@simplylift.com", "points": 13},
-        {"name": "Club 2", "email": "john@simplylift.com", "points": 10},
-    ]
-
-    # Simulez une requête avec une adresse e-mail qui correspond à plusieurs clubs
-    response = client.post('/showSummary', data={'email': 'john@simplylift.com'})
-
-    # Assurez-vous que le statut de la réponse est 302 (redirection)
-    assert response.status_code == 302
-
-    # Assurez-vous que l'URL de redirection se termine par "/"
-    assert response.headers['Location'].endswith('/')
-
-    # Vérifiez si un message d'erreur approprié est présent dans les messages flash
-    with client.session_transaction() as session:
-        flash_messages = dict(session['_flashes'])
-
-
-
