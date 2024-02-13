@@ -59,25 +59,43 @@ from flask import redirect, url_for, flash
 
 @app.route('/purchasePlaces', methods=['POST'])
 def purchasePlaces():
-    competition = [c for c in competitions if c['name'] == request.form['competition']][0]
-    club = [c for c in clubs if c['name'] == request.form['club']][0]
+    competition_name = request.form['competition']
+    club_name = request.form['club']
     placesRequired = int(request.form['places'])
+
+    competition = [c for c in competitions if c['name'] == competition_name][0]
+    club = [c for c in clubs if c['name'] == club_name][0]
 
     # Vérification du nombre de points
     if int(club['points']) < placesRequired:
         flash('Point insuffisant!')
         return render_template('welcome.html', club=club, competitions=competitions)
 
-    # Vérification du nombre de places disponibles
+    # Vérification du nombre de places disponibles pour la compétition spécifique
     if int(competition['numberOfPlaces']) < placesRequired:
-        flash('Nombre de places insuffisant!')
+        flash('Nombre de places insuffisant pour la compétition {}!'.format(competition_name))
         return render_template('welcome.html', club=club, competitions=competitions)
 
-    # Calcul pour que le nombre de points et les places diminuent en fonction du nombre de places réservées
-    competition['numberOfPlaces'] = int(competition['numberOfPlaces']) - placesRequired
+    # Vérification si le club a déjà atteint le nombre maximal de places réservées pour cette compétition
+    if 'places_reserved_' + competition_name not in club:
+        club['places_reserved_' + competition_name] = 0
+
+    if club['places_reserved_' + competition_name] + placesRequired > 12:
+        flash('Nombre maximal de places réservées atteint pour la compétition {}!'.format(competition_name))
+        return render_template('welcome.html', club=club, competitions=competitions)
+
+    # Conversion de la chaîne en entier pour pouvoir effectuer l'opération
     club['points'] = int(club['points']) - placesRequired
-    flash('Great-booking complete!')
+
+    # Réduction du nombre de places disponibles pour la compétition spécifique
+    competition['numberOfPlaces'] = int(competition['numberOfPlaces']) - placesRequired
+
+    # Incrémentation du nombre de places réservées par le club pour la compétition spécifique
+    club['places_reserved_' + competition_name] += placesRequired
+
+    flash('Réservation réussie pour la compétition {}!'.format(competition_name))
     return render_template('welcome.html', club=club, competitions=competitions)
+
 
 
 # TODO: Add route for points display
