@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcad2a32-5e43-4a8f-9894-2057fba63505" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Testing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spécifications+fonctionnelles.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clubs.json" beforeDir="false" afterPath="$PROJECT_DIR$/clubs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/competitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/competitions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_purchase_Places.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_show_Summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_show_Summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/black.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/black.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/blackd.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/blackd.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/coverage-3.10.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/coverage.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/coverage3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/dotenv.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/dotenv.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/epylint.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/epylint.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/exrex.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/exrex.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/exrex.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/exrex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/f2py.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/f2py.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/faker.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/faker.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/flake8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/flake8.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/flask.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/flask.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/get_gprof" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/get_gprof" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/get_objgraph" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/get_objgraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/gunicorn.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/gunicorn.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/isort-identify-imports.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/isort-identify-imports.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/isort.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/isort.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/jsonpath_ng.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/jsonpath_ng.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/locust.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/locust.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/normalizer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/normalizer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.10.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/py.test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/py.test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pycodestyle.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pycodestyle.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyflakes.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pyflakes.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pylint-config.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pylint-config.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pylint.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pylint.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyreverse.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pyreverse.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pytest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pytest.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/symilar.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/symilar.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/undill" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/undill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/uvicorn.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/uvicorn.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/wsdump.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/wsdump.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test_logout" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2byjqyU46lLauRPPgM3FgKLHAdi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcad2a32-5e43-4a8f-9894-2057fba63505" name="Changes" comment="" />
+      <created>1707194413352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707194413352</updated>
+    </task>
+    <servers />
+  </component>
+</project>
