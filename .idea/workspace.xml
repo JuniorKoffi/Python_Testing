@@ -5,70 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a003fd66-0d71-4eaf-9464-554f605668d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spécifications+fonctionnelles.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clubs.json" beforeDir="false" afterPath="$PROJECT_DIR$/clubs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/competitions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/azerty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_achat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_date.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_load.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_logout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_performance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_purchasePlaces.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_show_Summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_show_Summary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/black.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/blackd.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/dotenv.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/epylint.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/exrex.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/exrex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/f2py.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/faker.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/flake8.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/flask.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/get_gprof" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/get_objgraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/gunicorn.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/isort-identify-imports.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/isort.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/jsonpath_ng.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/locust.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/normalizer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.10.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/py.test.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pycodestyle.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyflakes.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pylint-config.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pylint.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyreverse.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pytest.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pywin32_postinstall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pywin32_testall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/symilar.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/undill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/uvicorn.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/wsdump.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
